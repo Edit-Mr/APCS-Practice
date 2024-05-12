@@ -12,8 +12,8 @@ void go(short hole[][4], short already[], short blood, short last, short already
     {
         if (already[i])
             continue;
-        short newAlreadyBlock = alreadyBlock + abs(hole[i][0] - hole[last][2]) + abs(hole[i][1] - hole[last][3]);// ¨«¨«¬Ý
-        short calc = newAlreadyBlock + N - hole[i][2] + N - hole[i][3];                         // ª½±µ¨ì²×ÂI
+        short newAlreadyBlock = alreadyBlock + abs(hole[i][0] - hole[last][2]) + abs(hole[i][1] - hole[last][3]);// èµ°èµ°çœ‹
+        short calc = newAlreadyBlock + N - hole[i][2] + N - hole[i][3];                         // ç›´æŽ¥åˆ°çµ‚é»ž
         if (calc < shortest)
         {
             shortest = calc;
