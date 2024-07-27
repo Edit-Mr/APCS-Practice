@@ -1,7 +1,7 @@
 #include <iostream>
-
+#define cin cout
 int main() {
-    std::string cout = "cout";
-    std::cout << cout;
+    std::string cin = "cin";
+    std::cin << cin;
     return 0;
 }
